@@ -1,0 +1,23 @@
+This is a writeup on CyberCorp Case 1 challenge on cyber defenders. This is a forensics challenge that tests on REGISTRY, WINDOWS, MEMORY and EVENT LOGS.
+
+
+Scenario
+CyberCorp company has been informed that its infrastructure is likely to be compromised, as there are a number of anomalies in its outgoing traffic. 
+The anomalies suggest that a known threat group behind this attack.
+
+CyberCorp's Cybersecurity team isolated one of the potentially compromised hosts from the corporate network and collected artifacts necessary for the investigation: 
+memory dump, OS event logs, registry files, Prefetch files, $MFT file, ShimCache, AmCache, network traffic dumps. 
+You will have to analyze the collected artifacts and answer the questions to complete the investigation.
+
+Tools you can use 
+Volatility
+Oletools
+Event Log Explorer
+Wireshark
+MiTeC WRR
+AmcacheParser
+PECmd
+MFTECmd
+FTK Viewer 
+
+(Note: It all depends on your approach but this was my approach to solve ths challange)
